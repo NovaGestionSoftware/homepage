@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
   	extend: {
+		height: {
+			'screen-plus-10': 'calc(100vh + 10rem)',
+		  },
   		keyframes: {
   			fadeInUp: {
   				'0%': {
